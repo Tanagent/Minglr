@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "884244279347",
+    "firebase_url": "https://blinddateapp-1dcff.firebaseio.com",
+    "project_id": "blinddateapp-1dcff",
+    "storage_bucket": "blinddateapp-1dcff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884244279347:android:0645add80aba127a",
+        "android_client_info": {
+          "package_name": "com.blinddateapp.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884244279347-hagni4adu5rbo81neamq1qq2831iqnif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blinddateapp.android",
+            "certificate_hash": "F8C48B4F54F0BE558CC5B3859086A456D16C9705"
+          }
+        },
+        {
+          "client_id": "884244279347-771c57g768o3b10oeoj1ieprrkfcls4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD7F5znW11nRNWOTw7gyM1TEZn_KqxE-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884244279347-771c57g768o3b10oeoj1ieprrkfcls4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

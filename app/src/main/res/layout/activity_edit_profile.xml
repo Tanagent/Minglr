@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Edit Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editProfile"
+        android:textSize="36sp"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:layout_weight="0.00"
+        android:onClick="imageClicked" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="62dp">
+
+        <EditText
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editFirstName"
+            android:maxLines="1"
+            android:textSize="30sp"
+            android:hint="First Name" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editLastName"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textSize="30sp"
+            android:hint="Last Name" />
+    </LinearLayout>
+
+    <TextView
+        android:text="mm/dd/yyyy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBirthday"
+        android:textSize="30sp"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="51dp">
+
+        <EditText
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/editCity"
+            android:hint="City"
+            android:textSize="30sp"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/editState"
+            android:layout_weight="1"
+            android:hint="State"
+            android:textSize="30sp"
+            android:maxLines="1" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editDescription"
+        android:selectAllOnFocus="false"
+        android:hint="Description(optional)"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00">
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileCancelButton"
+            android:layout_weight="1"
+            android:elevation="0dp"
+            android:textSize="18sp"
+            android:onClick="cancelOnClick" />
+
+        <Button
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileSaveButton"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:onClick="saveOnClick" />
+    </LinearLayout>
+
+</LinearLayout>
